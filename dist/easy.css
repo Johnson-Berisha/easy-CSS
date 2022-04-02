@@ -339,30 +339,3 @@ a {
   text-decoration: none;
 }
 
-a.danger {
-  color: var(--danger);
-}
-
-a.info {
-  color: var(--info);
-}
-
-a.success {
-  color: var(--success);
-}
-
-a.light {
-  color: var(--light);
-}
-
-a.primary {
-  color: var(--primary);
-}
-
-a.primary-lightweight {
-  color: var(--primary-lw);
-}
-
-a.primary-dark {
-  color: var(--primary-dark);
-}
