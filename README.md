@@ -1,5 +1,5 @@
-# easy4allCSS
-### Easy4allCSS or easyCSS is a super easy to use, as the title says, CSS framework thats built for all, once again as the title says!
+# easyCSS
+### EasyCSS is a super easy to use, as the title says, CSS framework thats built for all, once again as the title says!
 
 #### 🔥 Easy to use!
 #### 🔥 Built for all!
