@@ -13,7 +13,7 @@
     --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --body-font-size: 1rem;
     --body-font-weight: 400;
-    --body-line-height: 1.5;
+    --body-line-height: 1;
     --body-color: #212529;
     --body-bg: #fff;
 }
@@ -38,6 +38,7 @@ body {
     line-height: var(--body-line-height);
     font-weight: var(--body-font-weight);
     font-size: var(--body-font-size);
+    height: 100vh;
 }
 
 /* colors */
@@ -46,64 +47,128 @@ body {
   color: var(--danger);
 }
 
+#red {
+  background-color: var(--danger);
+}
+
 .blue {
   color: var(--info);
+}
+
+#blue {
+  background-color: var(--info);
 }
 
 .yellow {
   color: #f5f512;
 }
 
+#yellow {
+  background-color: #f5f512;
+}
+
 .green {
   color: var(--primary);
+}
+
+#green {
+  background-color: var(--primary);
 }
 
 .orange {
   color: var(--warning);
 }
 
+#orange {
+  background-color: var(--warning);
+}
+
 .cyan {
   color: #00ffff;
+}
+
+#cyan {
+  background-color: #00ffff;
 }
 
 .crimson {
   color: #dc143c;
 }
 
+#crimson {
+  background-color: #dc143c;
+}
+
 .purple {
   color: #ce09ce;
+}
+
+#purple {
+  background-color: #ce09ce;
 }
 
 .pink {
   color: #e91e63;
 }
 
+#pink {
+  background-color: #e91e63;
+}
+
 .chocolate {
   color: #d2691e;
+}
+
+#chocolate {
+  background-color: #d2691e;
 }
 
 .brown {
   color: #a52a2a;
 }
 
+#brown {
+  background-color: #a52a2a;
+}
+
 .black {
   color: var(--body-color);
+}
+
+#black {
+  background-color: var(--body-color);
 }
 
 .white {
   color: var(--light);
 }
 
+#white {
+  background-color: var(--light);
+}
+
 .deep-purple {
   color: #673ab7;
+}
+
+#deep-purple {
+  background-color: #673ab7;
 }
 
 .indigo {
   color: #3f51b5;
 }
 
+#indigo {
+  background-color: #3f51b5;
+}
+
 .light-blue {
   color: #03a9f4;
+}
+
+#light-blue {
+  background-color: #03a9f4;
 }
 
 }hr {
@@ -172,6 +237,7 @@ body {
   p {
     margin-top: 0;
     margin-bottom: 1rem;
+    display: inline;
   }
 
   abbr[title],
@@ -276,8 +342,11 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
-  word-wrap: break-word;
+  color: rgb(45, 134, 45);
+  /* padding: 25px; */
+  /* width: 15%; */
+  background: black;
+  word-wrap: normal;
 }
 a > code {
   color: inherit;
@@ -341,6 +410,328 @@ a {
   text-decoration: none;
 }
 
+
+/* fonts */
 .bold {
   font-weight: bold;
 }
+
+.f100 {
+  font-weight: 100;
+}
+
+.f200 {
+  font-weight: 200;
+}
+
+.f300 {
+  font-weight: 300;
+}
+
+.f400 {
+  font-weight: 400;
+}
+
+.f500 {
+  font-weight: 500;
+}
+
+.f600 {
+  font-weight: 600;
+}
+
+.f700 {
+  font-weight: 700;
+}
+
+.f800 {
+  font-weight: 800;
+}
+
+.f900 {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.f1px {
+  font-size: 1px;
+}
+
+.f2px {
+  font-size: 2px;
+}
+
+.f3px {
+  font-size: 3px;
+}
+
+.f4px {
+  font-size: 4px;
+}
+
+.f5px {
+  font-size: 5px;
+}
+
+.f6px {
+  font-size: 6px;
+}
+
+.f7px {
+  font-size: 7px;
+}
+
+.f8px {
+  font-size: 8px;
+}
+
+.f9px {
+  font-size: 9px;
+}
+
+.f10px {
+  font-size: 10px;
+}
+
+.f11px {
+  font-size: 11px;
+}
+
+.f12px {
+  font-size: 12px;
+}
+
+.f13px {
+  font-size: 13px;
+}
+
+.f14px {
+  font-size: 14px;
+}
+
+.f15px {
+  font-size: 15px;
+}
+
+.f16px {
+  font-size: 16px;
+}
+
+.f17px {
+  font-size: 17px;
+}
+
+.f18px {
+  font-size: 18px;
+}
+
+.f19px {
+  font-size: 19px;
+}
+
+.f20px {
+  font-size: 20px;
+}
+
+.f21px {
+  font-size: 21px;
+}
+
+.f22px {
+  font-size: 22px;
+}
+
+.f23px {
+  font-size: 23px;
+}
+
+.f24px {
+  font-size: 24px;
+}
+
+.f26px {
+  font-size: 26px;
+}
+.f27px {
+  font-size: 27px;
+}
+
+.f28px {
+  font-size: 28px;
+}
+
+.f29px {
+  font-size: 29px;
+}
+
+.f30px {
+  font-size: 30px;
+}
+
+.f31px {
+  font-size: 31px;
+}
+
+.f32px {
+  font-size: 32px;
+}
+
+.f33px {
+  font-size: 33px;
+}
+
+.f34px {
+  font-size: 34px;
+}
+
+.f35px {
+  font-size: 35px;
+}
+
+.f36px {
+  font-size: 36px;
+}
+
+.f37px {
+  font-size: 37px;
+}
+
+.f38px {
+  font-size: 38px;
+}
+
+.f39px {
+  font-size: 39px;
+}
+
+.f40px {
+  font-size: 40px;
+}
+
+.f41px {
+  font-size: 41px;
+}
+
+.f42px {
+  font-size: 42px;
+}
+
+.f43px {
+  font-size: 43px;
+}
+
+.f44px {
+  font-size: 44px;
+}
+
+.f45px {
+  font-size: 45px;
+}
+
+.f46px {
+  font-size: 46px;
+}
+
+.f47px {
+  font-size: 47px;
+}
+
+.f48px {
+  font-size: 48px;
+}
+
+.f49px {
+  font-size:49px;
+}
+
+.f50px {
+  font-size: 50px;
+}
+
+.f55px {
+  font-size: 55px;
+}
+
+.f60px {
+  font-size: 60px;
+}
+
+.f65px {
+  font-size: 65px;
+}
+
+.f70px {
+  font-size: 70px;
+}
+
+.f75px {
+  font-size: 75px;
+}
+
+.f80px {
+  font-size: 80px;
+}
+
+.f85px {
+  font-size: 85px;
+}
+
+.f90px {
+  font-size: 90px;
+}
+
+.f95px {
+  font-size: 95px;
+}
+
+.f100px {
+  font-size: 100px;
+}
+
+.f1rem {
+  font-size: 1rem;
+}
+
+.f2rem {
+  font-size: 2rem;
+}
+
+.f3rem {
+  font-size: 3rem;
+}
+
+.f4rem {
+  font-size: 4rem;
+}
+
+.f5rem {
+  font-size: 5rem;
+}
+
+.f6rem {
+  font-size: 6rem;
+}
+
+.f7rem {
+  font-size: 7rem;
+}
+
+.f8rem {
+  font-size: 8rem;
+}
+
+.f9rem {
+  font-size: 9rem;
+}
+
+.f10rem {
+  font-size: 10rem;
+}
+
