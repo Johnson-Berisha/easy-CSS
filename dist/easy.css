@@ -39,6 +39,7 @@ body {
     font-weight: var(--body-font-weight);
     font-size: var(--body-font-size);
     height: 100vh;
+    width: 100vw;
 }
 
 /* colors */
@@ -185,7 +186,7 @@ body {
   
   h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     font-weight: 500;
     line-height: 1.2;
   }
@@ -236,8 +237,7 @@ body {
   
   p {
     margin-top: 0;
-    margin-bottom: 1rem;
-    display: inline;
+    margin-bottom: 3px;
   }
 
   abbr[title],
@@ -1177,3 +1177,76 @@ a {
   padding: 10rem;
 }
 
+/* Muted text */
+
+.mute {
+  opacity: 0.5;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+/* mark */
+
+mark {
+  background: rgba(255, 255, 99, 0.879);
+  border-radius: 3px;
+}
+
+/* bold tag */
+
+bold {
+font-weight: bold;
+}
+
+/* italic tag */
+
+italic {
+  font-style: italic;
+}
+
+/* Block Quotes */
+
+.blockquote {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.blockquote-footer {
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #57585a;
+}
+
+.blockquote-footer::before {
+  content: "- ";
+  font-size: 20px;
+}
+
+.blockquote-firstletter {
+  font-size: 45px;
+  letter-spacing: -6px;
+}
+
+/* Lead paragraphs */
+
+.lead {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Alignment */
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
