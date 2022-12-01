@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../dist/easy.css">
+    <style>
+
+        body {
+            /* padding: 0 20px; */
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body>
     <h1 class="f30px red p10px" id="black">This h1 has a font-size of 30px, a color of red, bg of black and padding of 10px all inside a classname!</h1>
@@ -23,5 +30,68 @@
     <p class="left-align">Left aligned text!</p>
     <p class="center-align">Center aligned text!</p>
     <p class="right-align">Right aligned text!</p>
+    <p>This below is a unstyled list,</p>
+    <ul class="unstyled-list">
+        <li>List 1,</li>
+        <li>List 2,</li>
+        <li>List 3,</li>
+        <li>List 4</li>
+    </ul>
+    <p>It can be used the same as a normal list, just the fact that it is not styled!</p>
+    <p>But the list below is a normal list, or a styled list,</p>
+    <ul class="styled-list">
+        <li>List 1,</li>
+        <li>List 2,</li>
+        <li>List 3,</li>
+        <li>List 4</li>
+    </ul>
+    <p>By that i mean it actually is styled and has a dot behind it!</p>
+    <p>The list below is a dotted list,</p>
+    <ul class="dotted-list">
+        <li>List 1,</li>
+        <li>List 2,</li>
+        <li>List 3,</li>
+        <li>List 4</li>
+    </ul>
+    <p>It's the same just as more beautiful!</p>
+    <table class="table">
+        <thead>
+          <tr>
+              <th class="col col-number">#</th>
+              <th class="col">First</th>
+            <th class="col">Last</th>
+            <th class="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="row">1</th>
+            <td>Majmun</td>
+            <td>Krasniqi</td>
+            <td>@center-align</td>
+          </tr>
+          <tr>
+            <th class="row">2</th>
+            <td>Bedri</td>
+            <td>Kaveci</td>
+            <td>@fatlopa</td>
+          </tr>
+          <tr>
+            <th class="row">3</th>
+            <td colspan="2">Drake (aj far djali se knon kit kangen "aj onlli llov maj mom and maj dad ajm sori")</td>
+            <td>@onllilovmajmom</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h1>Forms</h1>
+      <br>
+      <div class="form">
+        <label for="input">Name...</label>
+        <input type="text" id="input" name="Name" placeholder="Name..." class="form-name">
+        <label for="ta">Message...</label>
+        <textarea name="message" id="ta" class="textarea" placeholder="Message..." cols="30" rows="10"></textarea>
+        <input class="submit" type="submit">
+      </div>
 </body>
 </html>
